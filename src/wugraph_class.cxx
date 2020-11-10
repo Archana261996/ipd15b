@@ -12,6 +12,8 @@ WU_graph::WU_graph(size_t size)
 void WU_graph::set_weight(vertex_t u, vertex_t v, weight_t w)
 {
     edge_weights_[index_(u, v)] = w;
+
+
 }
 
 void WU_graph::remove_edge(vertex_t u, vertex_t v)
